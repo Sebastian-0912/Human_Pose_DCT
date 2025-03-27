@@ -8,8 +8,6 @@
   - [Features](#features)
   - [Model Architecture](#model-architecture)
   - [Demo](#demo)
-    - [Depth Image](#depth-image)
-    - [Predicted Keypoints](#predicted-keypoints)
   - [How to Use](#how-to-use)
   - [Acknowledgements](#acknowledgements)
   - [Future Work](#future-work)
@@ -31,24 +29,11 @@ This design allows us to predict human poses without exposing any visual informa
 
 ## Model Architecture
 
-![Pose_cnn Diagram](./model_Figure/pose_cnn.png)
-*Figure: Pose_cnn Architecture used in the model architecture.*
-
-![FFT Block Diagram](./model_Figure/fft_block.png)
-*Figure: FFT Block Architecture used in the model architecture.*
-
 ![Pose_dct Diagram](./model_Figure/pose_dct.png)
-*Figure: FFT Block Architecture used in the model architecture.*
 
 ## Demo
 
-### Depth Image
-
-*Example depth image used as input to the model.*
-
-### Predicted Keypoints
-
-*Example output showing the predicted skeletal keypoints.*
+![Demo Diagram](./model_Figure/demo_dct.png)
 
 ## How to Use
 
